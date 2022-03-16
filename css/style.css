@@ -1,6 +1,6 @@
 /*global*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
 
 html,
 body {
@@ -8,15 +8,15 @@ body {
   padding: 0;
 }
 * {
- font-family: "Roboto";
- font-size: 10px; 
- line-height: 3.5em; 
- font-weight: 300;
-        }
+  font-family: "Roboto";
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
 body {
   font-family: "Roboto";
-  font-size: 10px; 
-  text-align: 3.5em; 
+  font-size: 10px;
+  text-align: 3.5em;
   font-weight: 300;
 }
 header {
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "roboto Condensed"
+  font-family: "roboto Condensed";
 }
 h1 {
   font-size: 9em;
@@ -40,7 +40,8 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   line-height: 4em;
-  color: white; text-shadow: #020819 8px -20px 9px;
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
 }
 h3 {
   font-size: 4.2em;
@@ -58,31 +59,35 @@ h5 {
 }
 .quote {
   height: 2.5em;
-
 }
 
 /*nav-bar*/
 
-  .nav-bar {
-  background-color: rgb(25,33,41);
-    }
-  .nav-bar a {
-    color:white;
-    text-decoration: none;
-    font-size: 2em;
-    line-height: 1em
-     }
+.nav-bar {
+  background-color: rgb(25, 33, 41);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  line-height: 1em;
+}
 
 /*header*/
 
 header {
-background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
-<position>= 0 0;
-<repeat>= no-repeat;
-<size>= cover;
-height: 650px;
+  background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+  position: 0 0;
+  background-repeat: no-repeat;
+  background-image: cover;
+  height: 650px;
 }
 
-.general-information {
-  
+#general-information {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
